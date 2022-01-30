@@ -4,7 +4,7 @@ import os
 
 rss_url = input("Input rss URL or File_Address: ")
 c_md = input("Convert to markdown format? \n(y as default) y/n: ")
-c_name = input('Convert as Windows friendly file name?\n(n as default) y/n: ')
+c_name = input('convert to Windows friendly filenames?\n(n as default) y/n: ')
 
 feed = feedparser.parse(rss_url)
 items = feed["items"]
