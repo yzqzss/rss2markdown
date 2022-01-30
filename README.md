@@ -1,6 +1,7 @@
 # rss2markdown
 
 Convert RSS(from URL or file) to HTMLs or Markdown files (hugo/hexo format).
+Support for converting to Windows friendly filenames
 
 ## Install dependencies
 ```
